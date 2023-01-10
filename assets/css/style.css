@@ -1353,6 +1353,29 @@ footer {
   color: #f98633 !important;
   text-decoration: underline;
 }
+.footer_form .form-control {
+  background: transparent !important;
+  border: 1px solid #fff !important;
+  border-radius: 5px;
+  color: #fff !important;
+  padding: 5px 8px;
+  font-size: 14px;
+}
+.social_icon li {
+  margin-right: 10px;
+}
+.social_icon li a {
+  width: 32px;
+  height: 32px;
+  margin-right: 0;
+  background: #aa0019;
+  border-radius: 9px;
+  transition: .2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
 
 
 

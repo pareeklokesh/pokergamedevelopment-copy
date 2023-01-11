@@ -70,7 +70,7 @@ header .navbar button{
 }
 
 header .navbar .rahul img{
-  width: 100px !important;
+  width: 190px !important;
 }
 header .navbar .collapse ul li{
   margin-left: 20px;
@@ -382,7 +382,7 @@ footer .icon_fixed .whatsapp_fixed {
 padding: 20px 20px 10px 20px;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
-border-top: 2px solid #040402;
+border-top: 2px solid #ff7f00;
 position: relative;
 }
 .modal .model_header .cross{
@@ -455,6 +455,9 @@ border-color: #ced4da;
 }
 .modal .model_body {
   background: #f7f7f7;
+}
+.sticky-top.sticky {
+  box-shadow: 0 0 4px 4px rgba(0,0,0,.25);
 }
 
 @media screen and (max-width: 767px){

@@ -99,7 +99,7 @@ header .navbar .collapse ul li button:hover{
 
 /*********************banner css***********************/
 .banner{
-  background: url(../images/banner_bg.avif);
+  background: rgba(249,134,51,.1);
   height: 77vh;
   background-size: cover;
 }
@@ -305,7 +305,7 @@ header .navbar .collapse ul li button:hover{
 
 /*********************footer section***************************/
 footer{
-  background-color: black;
+  background-color: #fff;
 }
 footer p{
   color: white;
@@ -399,7 +399,7 @@ position: relative;
   font-weight: bold;
 }
 .modal .model_header h6{
-  color: white;
+  color: #484848 !important;
   line-height: 22px;
   text-align: center;
 }
@@ -412,24 +412,31 @@ position: relative;
 .modal .model_body .col1 .form_label{
   font-size: 14px;
   font-weight: bold;
+  color: #484848 !important;
+font-weight: 400;
 }
 .modal .model_body .col1 .form_input{
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-radius: 30px;
   padding: 6px;
   font-size: 14px;
   width: 100%;
   background-color: transparent;
+  border-radius: .25rem;
+border-color: #ced4da;
 }
 .modal .model_body .col1 .btn_outer .btn_btn#formsubmit {
   width: 100%;
   padding: 10px;
   border-radius: 30px;
-  background-color: #a92126;
-  border: 2px solid #a92126;
+  background-color: #ff7f00;
+  border: 2px solid #ff7f00;
   font-weight: bold;
   margin-top: 10px;
   color: #fff !important;
+}
+.modal .model_body .col1 .btn_outer .btn_btn.btn_btn.bg-white[type="reset"] {
+  border: 1px solid #000 !important;
 }
 .modal .model_body .col1 .form_input:focus{
   outline: none;  
@@ -644,13 +651,13 @@ letter-spacing: 1px;
   padding-bottom: 30px;
 }
 .sticky-top .navbar .collapse ul li button {
-  background: #aa0019 !important;
+  background: #ff7f00 !important;
   color: #fff !important;
 }
 
 .sticky-top {
   position: fixed !important;
-  background: rgba(4, 4, 4, 0.6) !important;
+  background: #ffe8d7 !important;
   width: 100%;
 }
 .stickyadd {
@@ -691,7 +698,7 @@ letter-spacing: 1px;
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background: #9e2025;
+  background: #ff7f00;
   display: block;
   transition: all 0.3s ease-in-out;
   position: absolute;
@@ -802,7 +809,7 @@ background: radial-gradient(circle at 50%, #661316 66%, transparent 50%);
   background: #f7f7f7;
 }
 .features-content {
-  background: #aa0019;
+  background: #ffe8d7 !important;
   border-radius: 15px;
   padding: 15px 10px;
   padding-top: 20px;
@@ -811,35 +818,49 @@ background: radial-gradient(circle at 50%, #661316 66%, transparent 50%);
 .features-content * {
   text-align: center;
 }
+.features-content h5 {
+  color: #000 !important;
+}
+.features-content p {
+  color: #484848 !important;
+}
 #solutions {
   background: #fff;
 }
 .dark-back {
-background: #040402 !important;
+background: #ffe8d7 !important;
 }
 .lite-black {
-background: #191919 !important;
+background: #fff !important;
 }
 .contact_us .overlay {
-  background-color: #191919 !important;
+  background-color: #fff !important;
 }
 .faq .card {
-  background: #191919;
+  background: rgba(249,134,51,.1);
 }
 body * {
-  color: #fff !important;
+  color: #000 !important;
 }
 .why_choose .col2 ul {
   background: #aa0019;
 }
 .popup_btn {
-  background: #aa0019;
+  background: #ff7f00;
+  color: #fff !important;
 }
 .banner .popup_btn {
-  border-color: #aa0019;
+  border-color: #ff7f00;
 }
 .banner .popup_btn:hover {
-  background: #aa0019 !important; 
+  background: #ff7f00 !important; 
+  color: #fff !important;
+}
+.banner .popup_btn:nth-child(4) {
+  color: #000 !important;
+}
+.banner .popup_btn:hover:nth-child(4) {
+  color: #fff !important;
 }
 .modal .model_body .col1 .btn_outer .btn_btn.btn_btn.bg-white {
   background: transparent !important;
@@ -849,7 +870,7 @@ body * {
   transition: all .4s linear;
 }
 .features-content:hover {
-  background: #fff;
+  background: #ffe8d7 !important;
 }
 .features-content:hover * {
   color: #000 !important;
@@ -891,7 +912,7 @@ body * {
   width: 33%;
 }
 .back_office .owl-carousel .owl-dots .owl-dot.active span {
-  background: #aa0019;
+  background: #ff7f00;
 } 
 .back_office .item .row {
   align-items: center;
@@ -974,7 +995,7 @@ body * {
   color: #191919 !important;
 }
 .back_office .col1 .content h5 {
-  color: #aa0019 !important;
+  color: #ff7f00 !important;
 }
 .platform .features-content p {
   margin-bottom: 0;
@@ -1043,22 +1064,25 @@ body * {
   color: #333 !important;
 }
 .faq .card .card-header button strong, .faq .card  .collapse p strong {
-  color: #aa0019 !important;
+  color: #ff7f00 !important;
   font-size: 30px;
   padding-right: 10px;
 }
+.faq .card .card-body p {
+  color: #484848 !important;
+}
 .faq .card .card-header button {
-  color: #fff !important;
+  color: #000 !important;
   display: flex;
   align-items: center;
   font-weight: 400;
 font-size: 14px !important;
 }
 .faq .card .card-header {
-  background: #000;
+  background: #ffe8d7;
 border-radius: 0;
 padding: 8px 8px;
-border-left: 2px solid #aa0019;
+border-left: 2px solid #ff7f00;
 margin-bottom: 0 !important;
 }
 .faq .card {
@@ -1067,10 +1091,10 @@ margin-bottom: 0 !important;
   border: 0 !important;
 }
 .faq .card  .collapse p strong {
-  color: #ddd !important;
+  color: #000 !important;
 }
 .faq .card .collapse {
-  border-left: 2px solid #ddd;
+  border-left: 2px solid #ff7f00;
   margin-left: 0;
 }
 .faq .card .collapse {
@@ -1082,9 +1106,12 @@ margin-bottom: 0 !important;
   display: block;
   width: 100%;
   height: 1px;
-  background: #2f2f2f;
+  background: #fff3ea;
   position: absolute;
   bottom: 0px;
+}
+.popup_btn i {
+  color: #fff !important;
 }
 .whychoose-list-new li strong {
   background: #aa0019;
@@ -1109,7 +1136,7 @@ margin-bottom: 0 !important;
 }
 .whychoose-list-new li .why-chooseaddnew span {
   background: #fff;
-  color: #aa0019 !important;
+  color: #ff7f00 !important;
   width: 30px;
   height: 30px;
   font-size: 15px;
@@ -1117,7 +1144,7 @@ margin-bottom: 0 !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #aa0019;
+  border: 2px solid #ff7f00;
   border-radius: 5px;
   margin-bottom: 7px;
 }
@@ -1261,7 +1288,7 @@ footer {
 }
 .sub-title .color-accent {
   display: block;
-  border: 3px solid #aa0019;
+  border: 3px solid #ff7f00;
   width: 12px;
   height: 12px;
   margin-right: 13px;
@@ -1283,7 +1310,7 @@ footer {
 }
 .footer_form .form-label, .request_qoute label {
   font-size: 14px;
-  color: #fff;
+  color: #484848 !important;
   margin-bottom: 2px;
 }
 .footer_form .form-control, .request_qoute input.forminput, .request_qoute textarea {
@@ -1297,10 +1324,14 @@ footer {
 }
 .form-check-label {
   font-size: 14px;
+  color: #484848 !important;
 }
 .form-check-label a {
   color: #f98633;
   text-decoration: underline;
+}
+p {
+  color: #484848 !important;
 }
 .submite_form {
   width: 100%;
@@ -1308,7 +1339,7 @@ footer {
   font-size: 16px !important;
   margin-top: 20px;
   cursor: pointer !important;
-  background: #aa0019 !important;
+  background: #ff7f00 !important;
   transition: .1s !important;
   color: #fff !important;
   height: 64px !important;
@@ -1336,12 +1367,15 @@ footer {
   padding: 0;
 }
 .footer_nav li a {
-  color: #fff;
+  color: #484848 !important;
   font-size: 14px;
   transition: .2s;
   text-decoration: none;
   line-height: 28px;
   opacity: .7;
+}
+.footer_nav li a:hover {
+  color: #f98633 !important;
 }
 .footer_nav li {
   margin-bottom: 0;
@@ -1354,12 +1388,16 @@ footer {
   text-decoration: underline;
 }
 .footer_form .form-control {
-  background: transparent !important;
-  border: 1px solid #fff !important;
-  border-radius: 5px;
-  color: #fff !important;
-  padding: 5px 8px;
-  font-size: 14px;
+  border: 1px solid #d3d3d3;
+background: #f3f3f3;
+border-radius: 8px;
+padding: 15px;
+transition: .1s;
+font-size: 16px;
+color: #484848 !important;
+}
+.footer_form input.form-control {
+  height: 46px;
 }
 .social_icon li {
   margin-right: 10px;
@@ -1368,13 +1406,19 @@ footer {
   width: 32px;
   height: 32px;
   margin-right: 0;
-  background: #aa0019;
+  background: rgba(249,134,51,.2);
   border-radius: 9px;
   transition: .2s;
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 1;
+}
+.social_icon li a i {
+  color: #ff7f00 !important;
+}
+.social_icon li a:hover {
+  box-shadow: 0 3px 4px rgba(0,0,0,.3);
 }
 .ps-2 {
   padding-left: .5rem !important;
